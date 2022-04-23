@@ -10,18 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light{
+    background: black;
+    padding: 50px;
+    display: inline-block;
+    margin: auto;
+}
 .light{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background-color: black;
 }
 .red{
-    background: red;
+    background-color: red;
 }
 .yellow{
-    background: yellow;
+    background-color: yellow;
 }
 .green{
-    background: green;
+    background-color: green;
+}
+.glow{
+    box-shadow: 0px 0px 9px 4px #747DE8;
 }
