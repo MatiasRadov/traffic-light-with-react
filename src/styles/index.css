@@ -13,23 +13,33 @@
 .traffic-light{
     background: black;
     padding: 50px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    height: 700px;
+    width: 300px;
 }
-.light{
+.light_red{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    background: red;
+    margin-bottom: 10px;
 }
-.red{
-    background-color: red;
+.light_yellow{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: yellow;
+    margin-bottom: 10px;
 }
-.yellow{
-    background-color: yellow;
+.light_green{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: green;
 }
-.green{
-    background-color: green;
-}
+
 .glow{
     box-shadow: 0px 0px 9px 4px #747DE8;
 }
